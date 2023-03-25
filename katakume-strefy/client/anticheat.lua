@@ -20,7 +20,7 @@ CreateThread(function()
             przejmowanie = true
             for i = 1, 300, 1 do
                 if przejmowanie == true then
-                if i == 300 then print('skonczylem') exports['astro_lib']:HideText() lib.callback('strefy') return end
+                if i == 300 then exports['astro_lib']:HideText() lib.callback('strefy') return end
                 Citizen.Wait(600)
                 exports['astro_lib']:ChangeText('Przejmowanie strefy : '..i..' / 300', 'right')
                 else
