@@ -6,7 +6,7 @@ CreateThread(function()
     })
 
     function point:onEnter()
-        lib.showTextUI('[E] - Przejmij strefa')
+        exports['astro_lib']:DrawText('[E] Przejmij strefe', 'right')
     end
     
     function point:onExit()
