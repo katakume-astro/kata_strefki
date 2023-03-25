@@ -2,7 +2,7 @@ fx_version 'adamant'
 game 'gta5'
 lua54 'true'
 author 'Astro-Development'
-description 'strefy
+description 'strefy'
 version '1.0.0'
 
 
