@@ -27,7 +27,6 @@ CreateThread(function()
         DrawMarker(23, self.coords.x, self.coords.y, self.coords.z-0.7, 0.0, 0.0, 0.0, 0.0, 180.0, 0.0, 10.0, 10.0, 10.0, 200, 20, 20, 50, false, true, 2, nil, nil, false)
     
         if self.currentDistance < 1 and IsControlJustReleased(0, 38) then
-            ExecuteCommand('strefka')
             przejmowanie = true
             for i = 1, 300, 1 do
                 if przejmowanie == true then
