@@ -5,14 +5,8 @@ author 'Astro-Development'
 description 'strefy'
 version '1.0.0'
 
-
-client_script {
-    'client/anticheat.lua',
-}
-
-server_script {
-    'server/anticheat.lua'
-}
+client_script 'client/main.lua'
+server_script 'server/main.lua'
 
 shared_script '@ox_lib/init.lua'
 shared_script '@es_extended/imports.lua'
